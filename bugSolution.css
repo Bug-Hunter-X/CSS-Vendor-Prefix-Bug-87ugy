@@ -1,0 +1,1 @@
+The solution is to remove the unnecessary vendor prefixes. Modern browsers generally support standard CSS properties without vendor prefixes.  For example, replace `-webkit-transform: translate3d(0, 0, 0);` with simply `transform: translate3d(0, 0, 0);`  Always check browser compatibility for CSS properties before adding prefixes.
